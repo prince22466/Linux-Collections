@@ -1,4 +1,4 @@
-# Linux Connectivity Troubleshooting Guide
+# Linux Server Connectivity Troubleshooting Guide
 _When a remote Linux server is unreachable (not pingable)_
 
 ---
