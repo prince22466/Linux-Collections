@@ -21,9 +21,9 @@ ISP Edge Routers Exgress (exit the ISP network)
   ↓    ↑  
 Internet Exchange(connections of Edge Routers) / Peering  
   ↓    ↑  
-Destination ISP Edge Router (Ingress)
+Destination ISP Edge Router (Ingress)  
   ↓    ↑  
-Destination Network Core Routers
+Destination Network Core Routers  
   ↓    ↑  
 Destination Gateway  
   ↓    ↑  
