@@ -9,11 +9,11 @@ Your App
   ↓    ↑  
 OS Network Stack  
   ↓    ↑  
-Local NIC  
+Local NIC(Local Network Interface Card)  
   ↓    ↑  
 Local Gateway (Router)  
   ↓    ↑  
-ISP Edge Router  
+ISP(Internet service provider) Edge Router  
   ↓    ↑  
 ISP Core Routers (multiple hops)  
   ↓    ↑  
