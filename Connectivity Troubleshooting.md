@@ -11,9 +11,9 @@ OS Network Stack
   ↓    ↑  
 Local NIC(Local Network Interface Card)  
   ↓    ↑  
-Local Gateway (Router)  
+Local Gateway  
   ↓    ↑  
-ISP(Internet service provider) Edge Router()  
+ISP(Internet service provider) Edge Router(Edge Router is boundary router of the current network)  
   ↓    ↑  
 ISP Core Routers (multiple hops)  
   ↓    ↑  
