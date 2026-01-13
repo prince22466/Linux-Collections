@@ -13,11 +13,13 @@ Local NIC(Local Network Interface Card)
   ↓    ↑  
 Local Gateway  
   ↓    ↑  
-ISP(Internet service provider) Edge Router(Edge Router is boundary router of the current network)  
+ISP(Internet service provider) Edge Router Ingress (Edge Router is boundary router of the current network, Ingress means entry to the ISP network)  
   ↓    ↑  
-ISP Core Routers (multiple hops)  
+ISP Core Routers (internal transit inside current ISP network)  
   ↓    ↑  
-Internet Exchange / Peering  
+ISP Edge Routers Exgress (exit the ISP network)  
+  ↓    ↑  
+Internet Exchange(connections of Edge Routers) / Peering  
   ↓    ↑  
 Destination ISP  
   ↓    ↑  
