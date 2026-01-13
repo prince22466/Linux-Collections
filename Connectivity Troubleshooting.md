@@ -23,6 +23,8 @@ Destination ISP
   ↓    ↑  
 Destination Edge Router  
   ↓    ↑  
+Destination Gateway  
+  ↓    ↑  
 Remote Server NIC  
   ↓    ↑  
 Remote OS Network Stack  
