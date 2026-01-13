@@ -6,19 +6,19 @@ _When a remote Linux server is unreachable (not pingable)_
 route of ping a remote server
 
 Your App  
-  ↓    ↑
+  ↓    ↑  
 OS Network Stack  
-  ↓    ↑
+  ↓    ↑  
 Local NIC  
-  ↓    ↑
+  ↓    ↑  
 Local Gateway (Router)  
-  ↓    ↑
+  ↓    ↑  
 ISP Edge Router  
-  ↓    ↑
+  ↓    ↑  
 ISP Core Routers (multiple hops)  
-  ↓    ↑
+  ↓    ↑  
 Internet Exchange / Peering  
-  ↓    ↑
+  ↓    ↑  
 Destination ISP  
   ↓    ↑  
 Destination Edge Router  
