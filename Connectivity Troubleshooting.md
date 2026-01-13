@@ -3,7 +3,7 @@ _When a remote Linux server is unreachable (not pingable)_
 
 ---
 
-_Journy of ping a remote server
+_General logical journy of pinging a remote server, some components are integrated in one physical device.
 
 Your App  
   ↓    ↑  
@@ -13,7 +13,7 @@ Local NIC(Local Network Interface Card)
   ↓    ↑  
 Local Gateway (Router)  
   ↓    ↑  
-ISP(Internet service provider) Edge Router  
+ISP(Internet service provider) Edge Router()  
   ↓    ↑  
 ISP Core Routers (multiple hops)  
   ↓    ↑  
