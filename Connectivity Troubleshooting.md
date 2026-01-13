@@ -3,7 +3,7 @@ _When a remote Linux server is unreachable (not pingable)_
 
 ---
 
-route of ping a remote server
+_Journy of ping a remote server
 
 Your App  
   ↓    ↑  
