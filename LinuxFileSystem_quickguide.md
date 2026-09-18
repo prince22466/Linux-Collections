@@ -6,8 +6,8 @@ Other filesystems can be mounted at directories within that hierarchy, while dev
 | / | Root of the system | The starting point of the entire directory tree containing all other folders. |
 | /home | Personal user workspace | Contains personal subfolders for user accounts (e.g., /home/john), including downloads, documents, and individual user data. |
 | /root | Administrator workspace | The home directory for the administrator (root user), keeping administrative files separate from the main root (/) directory. |
-| /bin | Essential user binaries | Holds basic command-line tool executables like ls, cp, mv, cat, and mkdir required for basic system operations. |
-| /sbin | System binaries | Contains administrative commands (e.g., networking, system recovery, disk management) used primarily by system admins. |
+| /bin | Essential user binaries | Holds basic command-line tool executables like ls, cp, mv, cat, and mkdir required for basic system operations. On systems using a merged /usr, /bin may effectively map to /usr/bin, so don't imply it must contain independent files.|
+| /sbin | System binaries | Contains administrative commands (e.g., networking, system recovery, disk management) used primarily by system admins. Modern systems may merge it with /usr/sbin or even treat sbin and bin equivalently. |
 | /etc | System settings | Stores configuration files for system settings, applications, network interfaces, and services (e.g., SSH, DNS). |
 | /usr | User programs & software | Secondary hierarchy housing user utilities, libraries, and applications installed for overall system operations. |
 | /var | Variable/changing data | Stores data that continuously grows and changes, such as system logs (/var/log), database files, mail queues, and cache files. |
