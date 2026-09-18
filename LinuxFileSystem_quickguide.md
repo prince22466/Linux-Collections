@@ -1,3 +1,21 @@
+# Kernel Dev
+
+kernel development happens in the kernel source tree; /proc and /sys are runtime interfaces into the kernel you built.
+
+Kernel source tree(ie, arch/arm64/, drivers/, drivers/gpu/, drivers/media/, drivers/sound/)
+    ↓  
+you WRITE kernel code here
+
+/proc
+/sys
+/debugfs
+/tracing
+    ↓  
+you OBSERVE or INTERACT with the running kernel here
+
+-----------------------------------------------------------------------------------------------------------------
+
+# Linux File
 Linux presents files and mounted filesystems through a single directory hierarchy rooted at /.  
 Other filesystems can be mounted at directories within that hierarchy, while devices and kernel interfaces can also be represented through special filesystem objects such as /dev and /proc.
 
