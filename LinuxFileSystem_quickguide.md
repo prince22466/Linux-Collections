@@ -7,9 +7,9 @@ Kernel source tree(ie, arch/arm64/, drivers/, drivers/gpu/, drivers/media/, driv
 you WRITE kernel code here
 
 
-/proc
-/sys
-/debugfs
+/proc  
+/sys  
+/debugfs  
 /tracing  
     ↓  
 you OBSERVE or INTERACT with the running kernel here
