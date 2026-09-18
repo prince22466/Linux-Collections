@@ -1,4 +1,5 @@
-The Linux file system follows an inverted tree structure starting at the root directory (/). Unlike Windows, which assigns letters to separate drives (e.g., C: or D:), Linux attaches all storage devices and internal components into a single main hierarchy.
+The Linux file system follows an inverted tree structure starting at the root directory (/).  
+Linux attaches all storage devices and internal components into a single main hierarchy.
 
 | Directory | Common Usage | Description |
 |---|---|---|
