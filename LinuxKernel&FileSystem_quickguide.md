@@ -12,7 +12,7 @@ you WRITE kernel code here
 /debugfs  
 /tracing  
     ↓  
-you OBSERVE or INTERACT with the running kernel here
+you OBSERVE or INTERACT with the running kernel here. /proc and /sys are runtime interfaces into the kernel been built.
 
 -----------------------------------------------------------------------------------------------------------------
 
