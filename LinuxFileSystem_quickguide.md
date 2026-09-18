@@ -11,8 +11,8 @@ Other filesystems can be mounted at directories within that hierarchy, while dev
 | /etc | System settings | Stores configuration files for system settings, applications, network interfaces, and services (e.g., SSH, DNS). |
 | /usr | User programs & software | Secondary hierarchy housing user utilities, libraries, and applications installed for overall system operations. |
 | /var | Variable/changing data | Stores data that continuously grows and changes, such as system logs (/var/log), database files, mail queues, and cache files. |
-| /media | Removable storage | Default location where system-recognized removable media (like USB drives or DVDs) are automatically mounted. |
+| /media | Removable storage | Default location where system-recognized removable media (like USB drives or DVDs) are  mounted. |
 | /mnt | Manual storage mounts | Folder used by administrators to manually mount temporary external storage, network shares, or secondary disks. |
-| /dev | Device representation | Contains special device files that treat hardware components (like hard drives /dev/sda, mice, or terminals) as files. |
-| /proc | Live process/kernel info | A virtual file system created in memory by the kernel that provides real-time data on running processes, CPU status, and RAM. |
+| /dev | Device representation | Contains special device files that treat hardware components (like hard drives /dev/sda, mice, or terminals) as files. They are filesystem interfaces/device nodes through which programs interact with devices. |
+| /proc | Live process/kernel info |It is a *pseudo-filesystem/interface to kernel* data structures, It exposes process and kernel/system information such as /proc/PID, /proc/cpuinfo, and /proc/meminfo. |
 | /boot | Boot sequence files | Contains essential components needed to start up Linux, including the Linux kernel, bootloader, and startup configuration. |
