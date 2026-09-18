@@ -2,14 +2,15 @@
 
 kernel development happens in the kernel source tree; /proc and /sys are runtime interfaces into the kernel you built.
 
-Kernel source tree(ie, arch/arm64/, drivers/, drivers/gpu/, drivers/media/, drivers/sound/)
+Kernel source tree(ie, arch/arm64/, drivers/, drivers/gpu/, drivers/media/, drivers/sound/)  
     ↓  
 you WRITE kernel code here
+
 
 /proc
 /sys
 /debugfs
-/tracing
+/tracing  
     ↓  
 you OBSERVE or INTERACT with the running kernel here
 
