@@ -1,5 +1,5 @@
-The Linux file system follows an inverted tree structure starting at the root directory (/).  
-Linux attaches all storage devices and internal components into a single main hierarchy.
+Linux presents files and mounted filesystems through a single directory hierarchy rooted at /.  
+Other filesystems can be mounted at directories within that hierarchy, while devices and kernel interfaces can also be represented through special filesystem objects such as /dev and /proc.
 
 | Directory | Common Usage | Description |
 |---|---|---|
