@@ -1,6 +1,6 @@
 # Kernel Dev
 
-kernel development happens in the kernel source tree; /proc and /sys are runtime interfaces into the kernel you built.
+kernel development happens in the kernel source tree; **/proc and /sys are runtime interfaces** into the kernel been built.
 
 Kernel source tree(ie, arch/arm64/, drivers/, drivers/gpu/, drivers/media/, drivers/sound/)  
     ↓  
@@ -12,7 +12,7 @@ you WRITE kernel code here
 /debugfs  
 /tracing  
     ↓  
-you OBSERVE or INTERACT with the running kernel here. /proc and /sys are runtime interfaces into the kernel been built.
+you OBSERVE or INTERACT with the running kernel here.
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -33,5 +33,5 @@ Other filesystems can be mounted at directories within that hierarchy, while dev
 | /media | Removable storage | Default location where system-recognized removable media (like USB drives or DVDs) are  mounted. |
 | /mnt | Manual storage mounts | Folder used by administrators to manually mount temporary external storage, network shares, or secondary disks. |
 | /dev | Device representation | Contains special device files that treat hardware components (like hard drives /dev/sda, mice, or terminals) as files. They are filesystem interfaces/device nodes through which programs interact with devices. |
-| /proc | Live process/kernel info |It is a *pseudo-filesystem/interface to kernel* data structures, It exposes process and kernel/system information such as /proc/PID, /proc/cpuinfo, and /proc/meminfo. |
+| /proc | Live process/kernel info |It is a **pseudo-filesystem/interface to kernel** data structures, It exposes process and kernel/system information such as /proc/PID, /proc/cpuinfo, and /proc/meminfo. |
 | /boot | Boot sequence files | Contains essential components needed to start up Linux, including the Linux kernel, bootloader, and startup configuration. |
